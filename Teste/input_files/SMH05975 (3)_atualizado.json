@@ -1,0 +1,49 @@
+{
+  "header": {
+    "SMH": "SMH",
+    "codigo": "87200929000142",
+    "qtd_notas": "0001",
+    "qtd_lancamento": "00001",
+    "nro": "03005975",
+    "nome": "IRM SANTA CASA ALEGRETE",
+    "filler": ""
+  },
+  "segunda_linha": {
+    "fixo_00": "00",
+    "tipo_nota_35": "35",
+    "qtd_lancamento": "02",
+    "codigo_prest": "87200929000142",
+    "valor_total_nota": "0000000038365",
+    "valor_total_contraste": "000016545",
+    "tipo_prest": "53",
+    "periodo": "1024",
+    "nro_nota": "01072",
+    "filler": ""
+  },
+  "linhas_detalhe": [
+    {
+      "numero_linha": "01",
+      "matricula": "6696091501006",
+      "nro_contrato": "00045212",
+      "dia": "11",
+      "cod_honorario": "41001095",
+      "qtde": "00001",
+      "nome": "GISELE TEIXEIRA TOLEDO",
+      "arquivo_pdf": "campo Não encontrado"
+    },
+    {
+      "numero_linha": "02",
+      "matricula": "6696091501006",
+      "nro_contrato": "00045212",
+      "dia": "11",
+      "cod_honorario": "32200005",
+      "qtde": "25651",
+      "nome": "GISELE TEIXEIRA TOLEDO",
+      "arquivo_pdf": "campo Não encontrado"
+    }
+  ],
+  "erros_linhas_detalhe": [
+    "Linha 1: nome do arquivo PDF deve conter a extensão .pdf.",
+    "Linha 2: nome do arquivo PDF deve conter a extensão .pdf."
+  ]
+}
