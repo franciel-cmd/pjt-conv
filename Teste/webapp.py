@@ -41,7 +41,7 @@ def upload_file():
                 '--to', 'txt',
                 '--output', os.path.join(temp_dir, output_base),
                 '--processar_035'
-            ], check=True)
+            ], check=True, cwd=os.path.dirname(os.path.abspath(__file__)))
             # Disponibiliza para download
             return render_template('result.html',
                 json_url=url_for('download_file', path=output_json),
